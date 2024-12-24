@@ -28,8 +28,8 @@ const Sidebar = () => {
   };
 
   return (
-    <div dir="rtl" className="bg-dark  text-white h-100 min-vh-100 p-3 lg:p-5">
-      <h3 className="text-center mb-4">نظام إدارة المخازن</h3>
+    <div dir="rtl" className=" h-100 min-vh-100 p-3 lg:p-5 main-class-sidebar">
+      <h3 className="text-center mb-4">نظام إدارة الصيدلانية</h3>
       <ul className="nav flex-column p-0">
         <li className="nav-item d-flex align-items-center">
           <BsHouse className="mx-1 fs-4 icon"  />

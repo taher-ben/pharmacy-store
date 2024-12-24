@@ -1,24 +1,32 @@
+h3{
+    color: #212529 !important;
+    font-weight: bold;
+}
+.main-class-sidebar{
+    background-color: #dedede;
+}
+.nav-item{
+    color: #212529;
+}
 .nav-item:hover{
-    background-color: rgb(212, 212, 212);
-    color: #212529;
-    transition: 0.2s ease-in-out;
-
-}
-
-.nav-item:hover a{
-    color: #212529;
+    background-color: rgb(166, 166, 166);
+    color: #ececec;
     transition: 0.2s ease-in-out;
 }
-
 .nav-item a{
-    color: white;
+    color: #212529;
 }
+.nav-item button{
+    color: #212529 !important;
+}
+.nav-item:hover a{
+    color: #ececec;
+    transition: 0.2s ease-in-out;
+}
+
 
 .nav-item:hover button{
-    color: #212529;
+    color: #ececec !important;
     transition: 0.2s ease-in-out;
 }
 
-.nav-item button{
-    color: white;
-}
